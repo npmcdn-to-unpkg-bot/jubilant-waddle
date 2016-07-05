@@ -1,0 +1,22 @@
+{
+  "name": "jubilant-waddle",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petersgiles/jubilant-waddle.git"
+  },
+  "author": "petersgiles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petersgiles/jubilant-waddle/issues"
+  },
+  "homepage": "https://github.com/petersgiles/jubilant-waddle#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0"
+  }
+}
