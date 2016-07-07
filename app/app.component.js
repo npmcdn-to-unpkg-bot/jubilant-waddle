@@ -11,13 +11,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var AppComponent = (function () {
     function AppComponent() {
-        this.title = 'Tour of Heroes';
-        this.hero = 'Windstorm';
+        this.title = 'Converty';
     }
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: '<h1>{{title}}</h1><h2>{{hero}} details!</h2>'
+            template: "\n  <h1>{{title}}</h1>\n\n  <article>\n      <input type=\"file\" id=\"imageInput\" accept=\"image/*\">\n      <div id=\"imgdiv\"> </div>\n      <div> </div>\n      <div id=\"svgdiv\"> </div>\n  </article>\n  "
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
