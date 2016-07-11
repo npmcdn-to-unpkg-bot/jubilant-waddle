@@ -1,7 +1,7 @@
 import { Component }          from '@angular/core';
 import { ROUTER_DIRECTIVES }  from '@angular/router';
 
-import { HeroService }        from './hero.service';
+import { HeroService }        from './heroes/hero.service';
 
 @Component({
   selector: 'my-app',
@@ -11,6 +11,7 @@ import { HeroService }        from './hero.service';
     <nav>
       <a [routerLink]="['/dashboard']" routerLinkActive="active">Dashboard</a>
       <a [routerLink]="['/heroes']" routerLinkActive="active">Heroes</a>
+      <a [routerLink]="['/trace']" routerLinkActive="active">Trace</a>
     </nav>
     <router-outlet></router-outlet>
   `,

@@ -1,0 +1,17 @@
+<header>
+    <h1>potrace</h1>
+</header>
+
+<article>
+    <input #imageInput id="imageInput" type="file" accept="image/*"  (change)="imageChanged($event)">
+    <div id="drop">
+      <a href="#" (click)="imageOpen($event)">open an image</a>
+      <br> or drag an image here</div>
+    <div>
+        <a href="#" (click)="imageProcess($event)">open alien.png</a>
+        <a href="#" (click)="imageSave($event)">download</a>
+    </div>
+    <div #imgdiv id="imgdiv"> </div>
+    <div> </div>
+    <div #svgdiv id="svgdiv"> </div>
+</article>

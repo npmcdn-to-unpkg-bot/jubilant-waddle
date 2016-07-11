@@ -1,8 +1,9 @@
 import { provideRouter, RouterConfig }  from '@angular/router';
 
-import { DashboardComponent } from './dashboard.component';
-import { HeroesComponent } from './heroes.component';
-import { HeroDetailComponent } from './hero-detail.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { HeroesComponent } from './heroes/heroes.component';
+import { HeroDetailComponent } from './heroes/hero-detail.component';
+import { TraceComponent } from './trace/trace.component';
 
 export const routes: RouterConfig = [
   {
@@ -12,7 +13,7 @@ export const routes: RouterConfig = [
   },
   {
     path: 'dashboard',
-    component: DashboardComponent
+    component: DashboardComponent,
   },
   {
     path: 'detail/:id',
@@ -21,6 +22,10 @@ export const routes: RouterConfig = [
   {
     path: 'heroes',
     component: HeroesComponent
+  },
+  {
+    path: 'trace',
+    component: TraceComponent
   }
 ];
 
